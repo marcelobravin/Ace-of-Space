@@ -1,0 +1,10 @@
+fileFormatVersion: 2
+guid: 5bcf717c019c2f64ca2e58ceb8c31dd6
+MonoImporter:
+  serializedVersion: 2
+  defaultReferences:
+  - hit: {fileID: 400000, guid: e98a3d1ab449d1f408a64020d969a573, type: 2}
+  - hitArmor: {fileID: 100000, guid: 79482a09547897443914abf24324e076, type: 2}
+  executionOrder: 0
+  icon: {instanceID: 0}
+  userData: 

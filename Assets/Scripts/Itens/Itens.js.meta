@@ -1,0 +1,18 @@
+fileFormatVersion: 2
+guid: b4c1fdd643694d84d85b712d30a5b9a0
+MonoImporter:
+  serializedVersion: 2
+  defaultReferences:
+  - shine: {fileID: 400004, guid: b87fa103c878d6044aad3e0e6426cd97, type: 2}
+  - B: {fileID: 100000, guid: 703303241da369d4fb19c629764dc370, type: 2}
+  - lifeUp: {fileID: 100004, guid: e6fbfac7c2ddcd449a0b5cd0b7fb9ec7, type: 2}
+  - points1: {fileID: 100000, guid: 4820593c601ec7a48b32258f88c79761, type: 2}
+  - points2: {fileID: 100000, guid: 5f850b9eed36810458792a1051180602, type: 2}
+  - points3: {fileID: 100000, guid: aba26d07dc39bc149b1aa4669b3dd690, type: 2}
+  - pow: {fileID: 100000, guid: 0a389075ae6abdd469c8b703df733069, type: 2}
+  - pointsLose1: {fileID: 100000, guid: 8fd0e789c93737b488bda7bdeb6c33ea, type: 2}
+  - pointsLose2: {fileID: 100000, guid: ce16d6ae396ba4647920b7424b31b18c, type: 2}
+  - pointsLose3: {fileID: 100000, guid: 79feebcc39f39ad4cbf78124a08ed6fe, type: 2}
+  executionOrder: 0
+  icon: {instanceID: 0}
+  userData: 

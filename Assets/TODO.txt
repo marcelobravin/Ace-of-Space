@@ -1,0 +1,451 @@
+pra produção
+	retirados flare de
+		1-1
+		3-1
+		4-4
+		4-7
+		4-8
+	performance
+		verificar mat normal maps
+
+	nivelar musicas
+	nao serao considerados apontamentos quanto a:
+		estilo incorreto sobre fases verticais
+		fora de padrao fases 3 e 4
+		itens vermelhos
+		autoshot
+
+criar
+	pedra quadrada 2x2
+	script shotRajada
+	bullet stop, look, go!
+	player enemy bit
+	staff roll & escrever by mark 2011 - 2014
+	historia
+
+	button config
+	finais (1 bom, 6 ruins, 1 pessimo)
+	versao web & stand alone
+	emancipa.js (libera filho e morre ao fim do som, serve pra armas)
+	asteroide reduz velocidade com dano
+	bolha paralizante (gruda tem q atirar pra matar e mover)
+	-----------embosquer (aparece perto do player)
+	
+	fases novas
+		all range mode
+			esq/dire: rotaciona
+			cima/baixo: velocidade
+			
+		fase infinita
+			melhorar resources load do random stage
+			tempo
+			music
+			direcao seleciona (ou random?)
+			
+=========================================================
+arrumar
+	delta, abelhas ficam doidas com webshot (fazer calculos com speed absoluta)
+	tiro inimigo nao colidindo com e_bullets
+	ponto de instanciamento do stageEnemies
+	colocar stopShotting nos abstract shooter
+	boss velocidade e intervalo de big bullet 1 e 2 
+	nem toda fase esta com randomG
+		marcar random p/m/g, sunrings, playerEnemy
+	aumentar firerate e vida dos inimigos
+	reflectedShot hit
+	p_missile = rocket
+	oncontactstay laser para e encolhe
+	skins player
+	contar Kloc
+	UNIVERSAL.producao = false;
+	inimigo concentra
+	anihilator e sonic hit qdo sai do inimigo
+	rotacao qdo confuse
+	som tic tac
+	visualizaçao de laser em fases claras
+	desligar flare layer, ligar on pause
+	E_Basic isMultiplier -> multiplicador.js {onDestroy Instantiate filho}
+	tirar get multiple bombs
+	inimigos em desenvolvimento pra usar
+	zig zag carrier e fases 4-1 e 4-8? q tem blocos [adicionar oncolide(armored) {inverte}]
+	arrumar x2
+	inimigo
+		verificar!!!!!!!!!!!ao sair da tela atirador se auto destroi
+			[melhor q se objeto sair da tela informar filhos atiradores]
+			(mas pode sumir ao entrar na tela...)
+	som & particulas blow
+	corrigir audio stop qdo projetil é destruido
+		som na raiz do objeto
+		transform não rigidbody
+			só q não dai pra dar getcomponent
+		if (sem filhos) addcomponent deathrow (soundlentgh)	
+	arrumar skys q tem linha cinza
+
+	arrumar player
+		tirar monte de audio
+		posicionar coliders
+		tirar objetos vazios
+		colocar resources.load(material)
+ver fixo
+	hyper zig zag (restrito e free)
+inimigo
+	anda em circulos
+	zig zag z axis
+escudo ataque dano continuo
+arma x solta botao explode
+e_shield reflete tiro player
+laser marca posiçao e aparece preenchendo
+tiro brota ao redor do player
+
+
+
+tiro refletido amarelo ou laranja
+front horiz
+	front colide destroy shooter
+	hrz destroi inimigos, tiros obstaculos, itens [gameObject != chefe]
+
+tiro grande + dano
+testar inimigos novos e modulares com black hole
+laser enemy armored destroy/ encolhe
+& flash?
+grande pierce shield?
+
+muito dano com hypermode
+	imagina com bit, pow 3, shooter
+	mine sem firerate
+hit diferente para status shot (fireworks = chaos, ice = slow,)
+	msm hit armor e hitshield
+		armor metal
+		shield wrongse
+inicio = .1 abstract shooters (TODOS)
+// Colocar delay no lookPlayer
+timedshooter
+	angulo
+		ou istar (if angulo = 0 isstar)
+	intervalo
+		ou isOneshot (if intervalo = 0 isOneshot)	
+	som
+bubleblow se_watershot
+i_pointP ta com is trigger ligado
+	pra não colidir com bubble
+aplicar sons armas
+separar desaparecer e stopShooting
+adicionar "drag" aos inimigos pra evitar black hole aceleration
+combo afeta comboshadow
+ace + tempo de combo?
+pause mostrar
+	fase(tempo?) como caption
+	OPT - equip (icone & texto descritivo)
+diminuir collider player
+
+
+	
+
+script não mudar rotação
+	spacestation
+	orbturret
+	ovni
+	onstart {rotation = 0,0,0,0}
+	
+adicionar parametro stageDirection
+
+
+	
+hud pegar custo
+	textoDinamico.js nome da fase pegar tb
+
+colocar formata texto em universal
+venom explosaode veneno
+continue return to stageselect?
+pode trocar de arma entre as fases? [desvaloriza caminhos e finais]
+
+
+
+
+colocar status, shieldBoss, energyrecharge, gasto das habilidades
+	invokeRepeating(gastar, x)
+		if energy == 0 || fire2
+			cancelInvoke
+	
+ini concentra (hyper,player, ray, ovni)
+	tirão
+	saraivada
+
+
+arrumar
+	shader boss
+
+
+
+
+
+
+
+config botoes
+	controles do weapon select tão por setas e não por horizontal
+
+
+edit = projet settings - player web resolution 600x450
+
+BUGS
+	hit player bico
+	erro no sonic do bit
+	soltar tiro carregado depois de parar de carregar tiro durante pause
+	ser atingido por tiro refletido qdo muito rapido
+	missel maluco com turret 4-4
+	laser 4-5 invisivel
+	arrumar bit blaster
+	
+
+
+
+
+
+
+
+som speed up/down
+laser metralhadora de segmentos
+ho
+
+
+
+
+
+
+rol
+	1-1 [24]
+		F_NaveP
+		F_NaveG
+		Fighter		
+		
+		
+		
+		
+	2-1 [35]
+		GordoShip
+		F_NaveG
+		Fighter
+		O_Cross
+		O_Cross2		
+		
+	2-2	[35]
+		F_NaveP
+		Fighter
+		Rock1
+		Rock2
+		O_Bar
+		O_Bar2		
+
+
+
+
+
+	3-1	[47]
+		CarrierRandomG ++++++++++++++++++++++++++
+		Buzzbot
+		Buzzbot2
+		OVNI
+		Fighter
+		F_Mine--------------------------------
+		
+	3-2	[50]
+		Buzzbot
+		FighterSlim
+		SpaceStation
+		OrbTurret
+		trackerL (&R)
+
+	3-3	[49]
+		GordoShip
+		FighterSlim
+		F_Mine--------------------------------
+		SpaceStation
+		O_Closing2		
+		
+	3-4	[54]
+		OrbTurret
+		OVNI
+		O_Builder=================
+		O_Door
+		PasserH	
+
+
+
+
+
+	4-1	[54]
+		CarrierRandomG ++++++++++++++++++++++++++
+		BlocoG
+		Fighter
+		O_Builder2=================   tem 1 só!!!!!!!!!!!
+		O_Cross3D2
+		OVNIVertical
+		Ray
+
+	4-2	[49]
+		F_Mine2--------------------------------
+		F_Mine3--------------------------------
+		Buzzbot
+		BattleShip >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
+
+	4-3	[50]
+		F_NaveG
+		Sweeper >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
+		DeltaShip
+		Passer(V)
+		OVNIVertical
+
+	4-4	[40]
+		CarrierRandomG ++++++++++++++++++++++++++
+		DeltaShip
+		Turret >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
+		trackerL (&R)
+
+	4-5	[43]
+		CarrierRandomG ++++++++++++++++++++++++++
+		BubbleP
+		BubbleM
+		BubbleG
+		BubbleGG >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
+		Ray2
+		Miner		
+
+	4-6	[46]
+		CarrierRandomG ++++++++++++++++++++++++++
+		Fighter
+		FighterSlim
+		FighterBig >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
+
+	4-7	[40]
+		FighterSlim
+		Hunter
+		Ray >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
+		Miner
+
+	4-8	[64]
+		O_Closing
+		O_Closing2
+		O_DoorMover
+		O_Builder2=================
+		O_Closing2
+		F_Mine3--------------------------------
+		O_Cross
+		O_Cross2
+		O_Cross3D
+		O_Cross3D2
+		Fighter
+		
+
+
+
+
+
+
+
+
+
+
+=================================================BAIXA PRIORIDADE
+2 player
+	lookPlayer?
+	skins?
+	controle?
+	wselect
+	vicMenu?
+	win?
+	qdo atira getcomponent bala e seta dono boolean
+		//var isP2 : boolean = false;
+		// player instantiate bullet
+		// bullet isP2 = true
+
+
+intro & outro
+	animação intro
+		8 players
+		huge explosion
+	apresentação imagem opening (skyring move)
+		
+	finais(3)
+		bom 5-1 (vc passou no teste dos aliens, eles voltarão com 10x reforços sabendo q a Terra não é indefesa)
+		ruim 4-2 a 4-7(raça humana quase chegou a extinção)
+		péssimo 4-8(foi enganado, matou inimigo isca, mas a raça humana chegou ao fim, vcé o ultimo humano)
+	
+
+minibosses
+
+boss
+	substage add skill (2-1?)
+		x-1 tem todas (3)
+		x-x tem uma cada (8)
+		x-omega = nenhuma (4)
+		
+		!!!!!!!!!!!o_shooter (black hole/ bigdoor)
+		!!!!!!!!!!!holo shield (enemyArmored)
+		blind
+		flash energy (deleta ammoShot)
+		
+i_max2 abre fase
+	aparece qdo sub missão completa [passar todos aneis, coletar itens, matar inimigos, nao usar bombas (6)]		
+
+$$$ & medalhas (dependem do bd)
+	cada final ganha 1 armor
+	resto deve ser comprado (interrogação)
+	playerName & playerSenha
+	sex???
+	comprar continues, vidas e bombas
+
+
+options ???
+	som volume, off
+	dificuldade
+	vidas
+	bombas
+
+rank
+	maxCombo
+	nº deths
+	nº bombs
+	clear time
+	
+
+
+colocar no stages
+function GetUsedBombs() {
+	
+}
+
+function GetLostLives() {
+	
+}
+
+function GetMaxCombo() {
+	
+}
+
+colocar no weaponsBomb onButton stage.usedBombs++
+colocar no stage usedBombs
+colocar no common onDead lostLives++
+colocar no common??? onCombo 
+	if (maxCombo < x) {
+		maxcombo = x;
+	}
+
+
+colocar no stages
+if (LostLives == 0) {
+	rank = S;
+}
+
+if (maxCombo == 10) {
+	rank = S;
+}
+
+
+var tempo = Universal.clearTime[Universal.stage]
+if ( tempo < X) {
+	rank = S
+} else if ( tempo < Y) {
+	rank = A
+}
+=======================
+Multiverse program

@@ -1,0 +1,175 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+	<Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+	<Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+	<ProductVersion>10.0.20506</ProductVersion>
+	<SchemaVersion>2.0</SchemaVersion>
+	<ProjectGuid>{055A957C-2CCE-1A63-AF4E-5D5B0C4A676B}</ProjectGuid>
+	<OutputType>Library</OutputType>
+	<AppDesignerFolder>Properties</AppDesignerFolder>
+	<RootNamespace></RootNamespace>
+	<AssemblyName>Assembly-UnityScript</AssemblyName>
+	<TargetFrameworkVersion>v3.5</TargetFrameworkVersion>
+	<FileAlignment>512</FileAlignment>
+	<BaseDirectory>Assets</BaseDirectory>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+	<DebugSymbols>true</DebugSymbols>
+	<DebugType>full</DebugType>
+	<Optimize>false</Optimize>
+	<OutputPath>Temp\bin\Debug\</OutputPath>
+	<DefineConstants>DEBUG;TRACE;UNITY_WEBPLAYER;WEBPLUG;ENABLE_MICROPHONE;ENABLE_TEXTUREID_MAP;ENABLE_AUDIO_FMOD;ENABLE_MONO;ENABLE_SPRITES;ENABLE_TERRAIN;ENABLE_GENERICS;ENABLE_SUBSTANCE;INCLUDE_WP8SUPPORT;ENABLE_MOVIES;ENABLE_WWW;ENABLE_IMAGEEFFECTS;ENABLE_WEBCAM;INCLUDE_METROSUPPORT;RENDER_SOFTWARE_CURSOR;ENABLE_NETWORK;ENABLE_PHYSICS;ENABLE_CACHING;ENABLE_CLOTH;ENABLE_2D_PHYSICS;ENABLE_SHADOWS;ENABLE_AUDIO;ENABLE_NAVMESH_CARVING;ENABLE_DUCK_TYPING;ENABLE_SINGLE_INSTANCE_BUILD_SETTING;UNITY_4_3_4;UNITY_4_3;ENABLE_PROFILER;UNITY_EDITOR;UNITY_EDITOR_WIN</DefineConstants>
+	<ErrorReport>prompt</ErrorReport>
+	<WarningLevel>4</WarningLevel>
+	<NoWarn>0169</NoWarn>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+	<DebugType>pdbonly</DebugType>
+	<Optimize>true</Optimize>
+	<OutputPath>Temp\bin\Release\</OutputPath>
+	<DefineConstants>TRACE</DefineConstants>
+	<ErrorReport>prompt</ErrorReport>
+	<WarningLevel>4</WarningLevel>
+	<NoWarn>0169</NoWarn>
+  </PropertyGroup>
+  <ItemGroup>
+	<Reference Include="System" />
+    <Reference Include="System.XML" />
+	<Reference Include="System.Core" />
+	<Reference Include="System.Xml.Linq" />
+	<Reference Include="UnityEngine">
+	  <HintPath>C:/Program Files (x86)/Unity/Editor/Data/Managed/UnityEngine.dll</HintPath>
+	</Reference>
+	<Reference Include="UnityEditor">
+	  <HintPath>C:/Program Files (x86)/Unity/Editor/Data/Managed/UnityEditor.dll</HintPath>
+	</Reference>
+  </ItemGroup>
+  <ItemGroup>
+     <Compile Include="Assets\Scripts\Itens\Itens.js" />
+     <Compile Include="Assets\Scripts\Itens\Message.js" />
+     <Compile Include="Assets\Scripts\Itens\RandomItem.js" />
+     <Compile Include="Assets\Scripts\Optimization\Deathrow.js" />
+     <Compile Include="Assets\Scripts\Optimization\Desaparecer.js" />
+     <Compile Include="Assets\Scripts\Optimization\OneShotParticles.js" />
+     <Compile Include="Assets\Scripts\Optimization\Orfao.js" />
+     <Compile Include="Assets\Scripts\Optimization\Viuvo.js" />
+     <Compile Include="Assets\Scripts\Others\AcaoFrequente.js" />
+     <Compile Include="Assets\Scripts\Others\ApagarTiro.js" />
+     <Compile Include="Assets\Scripts\Others\ChangeColor.js" />
+     <Compile Include="Assets\Scripts\Others\CollectRing.js" />
+     <Compile Include="Assets\Scripts\Others\ContadorDano.js" />
+     <Compile Include="Assets\Scripts\Others\Crescendo.js" />
+     <Compile Include="Assets\Scripts\Others\DetachSmoke.js" />
+     <Compile Include="Assets\Scripts\Others\DoorClose.js" />
+     <Compile Include="Assets\Scripts\Others\DoorOpen.js" />
+     <Compile Include="Assets\Scripts\Others\FallScript.js" />
+     <Compile Include="Assets\Scripts\Others\Gravity.js" />
+     <Compile Include="Assets\Scripts\Others\GravityRepulsive.js" />
+     <Compile Include="Assets\Scripts\Others\Kaleidoscope.js" />
+     <Compile Include="Assets\Scripts\Others\LaserCont.js" />
+     <Compile Include="Assets\Scripts\Others\MineBlow.js" />
+     <Compile Include="Assets\Scripts\Others\Passer.js" />
+     <Compile Include="Assets\Scripts\Others\Ranker.js" />
+     <Compile Include="Assets\Scripts\Others\Resizer.js" />
+     <Compile Include="Assets\Scripts\Others\SkyStop.js" />
+     <Compile Include="Assets\Scripts\Others\Spin.js" />
+     <Compile Include="Assets\Scripts\Others\Track.js" />
+     <Compile Include="Assets\Scripts\Others\TrackL.js" />
+     <Compile Include="Assets\Scripts\Others\ZigZag.js" />
+     <Compile Include="Assets\Scripts\Player\Bit1Move.js" />
+     <Compile Include="Assets\Scripts\Player\ChangeSkin.js" />
+     <Compile Include="Assets\Scripts\Player\Charge.js" />
+     <Compile Include="Assets\Scripts\Player\Common.js" />
+     <Compile Include="Assets\Scripts\Player\Common2.js" />
+     <Compile Include="Assets\Scripts\Player\DanoAsa.js" />
+     <Compile Include="Assets\Scripts\Player\HUD.js" />
+     <Compile Include="Assets\Scripts\Player\Jet.js" />
+     <Compile Include="Assets\Scripts\Player\P1_Shields.js" />
+     <Compile Include="Assets\Scripts\Player\Player1Move.js" />
+     <Compile Include="Assets\Scripts\Player\Player2Move.js" />
+     <Compile Include="Assets\Scripts\Player\Rotacionar.js" />
+     <Compile Include="Assets\Scripts\Player\Smoke.js" />
+     <Compile Include="Assets\Scripts\Player\Universal.js" />
+     <Compile Include="Assets\Scripts\Player\WeaponsBomb.js" />
+     <Compile Include="Assets\Scripts\Player\WeaponsPrimary.js" />
+     <Compile Include="Assets\Scripts\Player\WeaponsSecondary.js" />
+     <Compile Include="Assets\Scripts\Screens\GameOver.js" />
+     <Compile Include="Assets\Scripts\Screens\HoverWhite.js" />
+     <Compile Include="Assets\Scripts\Screens\PauseOptions.js" />
+     <Compile Include="Assets\Scripts\Screens\PauseOptions2.js" />
+     <Compile Include="Assets\Scripts\Screens\StageEnemies.js" />
+     <Compile Include="Assets\Scripts\Screens\StageEnemiesRandom.js" />
+     <Compile Include="Assets\Scripts\Screens\Stages.js" />
+     <Compile Include="Assets\Scripts\Screens\TextoDinamico.js" />
+     <Compile Include="Assets\Scripts\Screens\TitleOptions.js" />
+     <Compile Include="Assets\Scripts\Screens\stageSelect.js" />
+     <Compile Include="Assets\Scripts\Screens\stageSelectReturnSize.js" />
+     <Compile Include="Assets\Scripts\Screens\weaponSelect.js" />
+     <Compile Include="Assets\Scripts\Screens\winScript.js" />
+     <Compile Include="Assets\Scripts\Som.js" />
+     <Compile Include="Assets\Scripts\Weapons\Explosion.js" />
+     <Compile Include="Assets\Scripts\Weapons\GenericBullet.js" />
+     <Compile Include="Assets\Scripts\Weapons\GenericBulletMissile.js" />
+     <Compile Include="Assets\Scripts\Weapons\Teleguiado.js" />
+     <Compile Include="Assets\Scripts\enemy\Boomerang.js" />
+     <Compile Include="Assets\Scripts\enemy\BossMask.js" />
+     <Compile Include="Assets\Scripts\enemy\E_Adapt.js" />
+     <Compile Include="Assets\Scripts\enemy\E_Basic.js" />
+     <Compile Include="Assets\Scripts\enemy\E_Builder.js" />
+     <Compile Include="Assets\Scripts\enemy\E_Bullet.js" />
+     <Compile Include="Assets\Scripts\enemy\E_Formation.js" />
+     <Compile Include="Assets\Scripts\enemy\E_HellControler.js" />
+     <Compile Include="Assets\Scripts\enemy\E_LookPlayer.js" />
+     <Compile Include="Assets\Scripts\enemy\E_Multiplier.js" />
+     <Compile Include="Assets\Scripts\enemy\E_Positioning.js" />
+     <Compile Include="Assets\Scripts\enemy\E_Shrinker.js" />
+     <Compile Include="Assets\Scripts\enemy\E_StatusShot.js" />
+     <Compile Include="Assets\Scripts\enemy\E_TimedShooter.js" />
+     <Compile Include="Assets\Scripts\enemy\Emboscar.js" />
+     <Compile Include="Assets\Scripts\enemy\FlyingV.js" />
+     <Compile Include="Assets\Scripts\enemy\ProximityMine.js" />
+     <Compile Include="Assets\Scripts\enemy\Ray.js" />
+     <Compile Include="Assets\Scripts\enemy\TimedMine.js" />
+     <Compile Include="Assets\Scripts\enemy\UTurn.js" />
+     <Compile Include="Assets\Scripts\enemy\Zanga.js" />
+     <Compile Include="Assets\zzzTestes\Outrem\FadeLight.js" />
+     <Compile Include="Assets\zzzTestes\Outrem\Standard Assets\Particles\Legacy Particles\TimedObjectDestructor.js" />
+     <Compile Include="Assets\zzzTestes\Outrem\_Scripts\ConstrainMotion.js" />
+     <Compile Include="Assets\zzzTestes\Outrem\_Scripts\MissileLauncher.js" />
+     <Compile Include="Assets\zzzTestes\Outrem\_Scripts\MissileTrajectory.js" />
+     <Compile Include="Assets\zzzTestes\Outrem\_Scripts\PlayerControls.js" />
+     <Compile Include="Assets\zzzTestes\Outrem\_Scripts\SmoothFollow.js" />
+     <None Include="Assets\zzzTestes\Outrem\Standard Assets\Glass Refraction (Pro Only)\Sources\Shaders\Glass-Stained-BumpDistort.shader" />
+     <None Include="Assets\Models\Shaders\glass.shader" />
+     <None Include="Assets\zzzTestes\Outrem\Standard Assets\Projectors\Sources\Shaders\Projector Multiply.shader" />
+     <None Include="Assets\Models\Shaders\Additive.shader" />
+     <None Include="Assets\Models\Shaders\Particle Add.shader" />
+     <None Include="Assets\zzzTestes\Outrem\Standard Assets\Skyboxes\skybox info.txt" />
+     <None Include="Assets\zzzTestes\Outrem\Standard Assets\Particles\Sources\Shaders\Particle Alpha Blend (Queue +100).shader" />
+     <None Include="Assets\Models\Shaders\UnlitAlpha.shader" />
+     <None Include="Assets\zzzTestes\Audio\Packs\Zero Gravity\Zero Gravity_ReadMe.txt" />
+     <None Include="Assets\Models\Shaders\ShadowProjection.shader" />
+     <None Include="Assets\zzzTestes\Outrem\Standard Assets\Water (Pro Only)\Water4\Sources\Shaders\FX-SimpleWater4.shader" />
+     <None Include="Assets\Models\Shaders\Shaders\LightmapOnlyShader.shader" />
+     <None Include="Assets\Models\Shaders\Particle Add (Overlay).shader" />
+     <None Include="Assets\Models\Shaders\ParticleAdditive.shader" />
+     <None Include="Assets\zzzTestes\Outrem\Standard Assets\Water (Basic)\Sources\Shaders\FX-Water Simple.shader" />
+     <None Include="Assets\Models\Shaders\BlendedDecal.shader" />
+     <None Include="Assets\Models\Shaders\LaserScope.shader" />
+     <None Include="Assets\TODO.txt" />
+     <None Include="Assets\zzzTestes\Outrem\Standard Assets\Water (Pro Only)\Water4\Sources\Shaders\WaterInclude.cginc" />
+     <None Include="Assets\zzzTestes\Outrem\Standard Assets\Water (Pro Only)\Water4\Sources\Shaders\FX-Water4.shader" />
+     <None Include="Assets\Models\Shaders\Particle Sep-Alpha Blend.shader" />
+     <None Include="Assets\Models\Shaders\InterlacePatternAdditive.shader" />
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+	   Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+  
+</Project>

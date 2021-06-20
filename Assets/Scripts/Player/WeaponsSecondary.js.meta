@@ -1,0 +1,24 @@
+fileFormatVersion: 2
+guid: df7103a3df35b5842b031e3a3080ad90
+MonoImporter:
+  serializedVersion: 2
+  defaultReferences:
+  - barraCheia: {fileID: 8300000, guid: 276dcbe5660b78e4cb1253cd4ad8d999, type: 3}
+  - shield: {fileID: 5400000, guid: c65e1f0510122b44798e823f73ffcee6, type: 2}
+  - shield2: {fileID: 5400000, guid: 4653f91a2b479174fa1557abaf59d082, type: 2}
+  - shield3: {fileID: 5400000, guid: 20771db4da4415146abb25cf5db43639, type: 2}
+  - shotgun: {fileID: 5400006, guid: 05c8b71bfbc77f64cbbcef05d4b38aff, type: 2}
+  - cannon: {fileID: 5400000, guid: 53b3f79f33311384cbd88b04c8b394e4, type: 2}
+  - wave: {fileID: 5400000, guid: 3f007516f14b5554a9b7624417a3a887, type: 2}
+  - webshot: {fileID: 5400000, guid: 6dd816e93835fb344acdcaa6f15c04c5, type: 2}
+  - mine: {fileID: 5400000, guid: 3b3b92c6a9637f9449e1d46c9e2103c4, type: 2}
+  - missile: {instanceID: 0}
+  - missileP: {instanceID: 0}
+  - hMissile: {instanceID: 0}
+  - bit1: {fileID: 100004, guid: 14a3857001afc034cb8a24653b9ec94a, type: 2}
+  - itemP: {instanceID: 0}
+  - itemM: {instanceID: 0}
+  - itemG: {instanceID: 0}
+  executionOrder: 0
+  icon: {instanceID: 0}
+  userData: 

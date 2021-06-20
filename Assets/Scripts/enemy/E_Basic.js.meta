@@ -1,0 +1,12 @@
+fileFormatVersion: 2
+guid: fdeb1ddcdc2ea5f4abd0afc041b0ea28
+MonoImporter:
+  serializedVersion: 2
+  defaultReferences:
+  - explosao: {fileID: 400000, guid: 3895795ce26187f48913a45de8991ba5, type: 2}
+  - bala: {instanceID: 0}
+  - shine: {instanceID: 0}
+  - item: {fileID: 400000, guid: 484a9d6a637728641be51ed5b7224532, type: 2}
+  executionOrder: 0
+  icon: {instanceID: 0}
+  userData: 

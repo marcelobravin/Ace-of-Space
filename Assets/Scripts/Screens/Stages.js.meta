@@ -1,0 +1,14 @@
+fileFormatVersion: 2
+guid: 0643fce85e11bfc41b086ae6ead1883e
+MonoImporter:
+  serializedVersion: 2
+  defaultReferences:
+  - pauseMenu: {fileID: 100004, guid: b0911c024a8dc734097bd84590fef601, type: 2}
+  - startMenu: {instanceID: 0}
+  - victoryMenu: {fileID: 100004, guid: 7c2c351a1ba115e4ab26d5f526969fb7, type: 2}
+  - victoryTheme: {fileID: 8300000, guid: 2a6cc79105ff1f94ca073ec371996211, type: 3}
+  - player1: {instanceID: 0}
+  - player2: {instanceID: 0}
+  executionOrder: 0
+  icon: {instanceID: 0}
+  userData: 

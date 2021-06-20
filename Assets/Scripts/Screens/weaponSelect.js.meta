@@ -1,0 +1,11 @@
+fileFormatVersion: 2
+guid: e21a48aa8a6f25f498759fa086cb0482
+MonoImporter:
+  serializedVersion: 2
+  defaultReferences:
+  - cubo: {instanceID: 0}
+  - cursor: {fileID: 8300000, guid: 276dcbe5660b78e4cb1253cd4ad8d999, type: 3}
+  - confirma: {fileID: 8300000, guid: 5212ae94dac3bc44e800b1030a53bf91, type: 3}
+  executionOrder: 0
+  icon: {instanceID: 0}
+  userData: 

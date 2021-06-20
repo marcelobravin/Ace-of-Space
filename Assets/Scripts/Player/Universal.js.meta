@@ -1,0 +1,14 @@
+fileFormatVersion: 2
+guid: 8299cfdd7ca7a94419c9b0ebe3c51d2b
+MonoImporter:
+  serializedVersion: 2
+  defaultReferences:
+  - bullet: {fileID: 5400006, guid: 9b5828d930f6a7b4ca9ab68f48bf625b, type: 2}
+  - bullet2: {fileID: 5400004, guid: ab2c927033cd9dd4e9403e099c6cb5be, type: 2}
+  - bullet3: {fileID: 5400006, guid: b9346b5fddda9ed4786d5e8cfbc05659, type: 2}
+  - bullet4: {fileID: 5400006, guid: 9b5828d930f6a7b4ca9ab68f48bf625b, type: 2}
+  - booster: {instanceID: 0}
+  - explosao: {fileID: 400000, guid: 798cfff000ff5c84abb656e072d74ad9, type: 2}
+  executionOrder: 0
+  icon: {instanceID: 0}
+  userData: 

@@ -1,0 +1,11 @@
+fileFormatVersion: 2
+guid: 2b70ada61db502c4f9cfbf5e3d34a366
+MonoImporter:
+  serializedVersion: 2
+  defaultReferences:
+  - filho: {instanceID: 0}
+  - premio: {fileID: 100000, guid: 484a9d6a637728641be51ed5b7224532, type: 2}
+  - explosao: {instanceID: 0}
+  executionOrder: 0
+  icon: {instanceID: 0}
+  userData: 

@@ -1,0 +1,16 @@
+fileFormatVersion: 2
+guid: 762fc2f38e8eb0541a09f2e9b121a974
+MonoImporter:
+  serializedVersion: 2
+  defaultReferences:
+  - anihilator: {fileID: 5400000, guid: c8c425e5a39ca3c4181891fbf6cd3477, type: 2}
+  - nova: {fileID: 5400000, guid: ac6e0a9c53db8ab4db242172f1a0e5b6, type: 2}
+  - blackHole: {fileID: 5400000, guid: fd1b21e3084ad5c4aa5357fe30a5dc31, type: 2}
+  - blast: {instanceID: 0}
+  - chemical: {fileID: 400000, guid: 55d5e80e058550142be16e62ee64a711, type: 2}
+  - flash: {instanceID: 0}
+  - hyper: {instanceID: 0}
+  - tickTack: {instanceID: 0}
+  executionOrder: 0
+  icon: {instanceID: 0}
+  userData: 

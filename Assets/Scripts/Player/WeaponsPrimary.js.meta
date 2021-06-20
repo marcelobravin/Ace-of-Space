@@ -1,0 +1,20 @@
+fileFormatVersion: 2
+guid: 2e7af095c3fcc7f488dd6f06d1267706
+MonoImporter:
+  serializedVersion: 2
+  defaultReferences:
+  - barraCheia: {fileID: 8300000, guid: 4a2b9ec94458b24488d8c35923f8dd6c, type: 3}
+  - bullet: {fileID: 5400000, guid: a277af8e660778c4e98e46b7499f1b72, type: 2}
+  - bullet2: {instanceID: 0}
+  - bullet3: {instanceID: 0}
+  - bullet4: {instanceID: 0}
+  - bigBullet1: {fileID: 5400000, guid: 5622d24b8111c6f498f68e08381713d2, type: 2}
+  - laser: {instanceID: 0}
+  - grenade1: {fileID: 5400000, guid: 288535595bf11734fb004691bfc9a562, type: 2}
+  - sonic1: {fileID: 5400000, guid: 947fd3085a7b9eb46a49cbd7992820d6, type: 2}
+  - venom1: {instanceID: 0}
+  - spreader: {instanceID: 0}
+  - experimental: {instanceID: 0}
+  executionOrder: 0
+  icon: {instanceID: 0}
+  userData: 

@@ -1,0 +1,491 @@
+fileFormatVersion: 2
+guid: 7dc643d3e8540b840ab281495c8b728a
+ModelImporter:
+  serializedVersion: 16
+  fileIDToRecycleName:
+    100000: Null_Object_jet Array Cylinder
+    100002: Null_Object_jet Array Cylinder_2
+    100004: Null_Object_jet Array Cylinder_2_1
+    100006: Null_Object_jet Array Cylinder_2_10
+    100008: Null_Object_jet Array Cylinder_2_11
+    100010: Null_Object_jet Array Cylinder_2_12
+    100012: Null_Object_jet Array Cylinder_2_13
+    100014: Null_Object_jet Array Cylinder_2_14
+    100016: Null_Object_jet Array Cylinder_2_15
+    100018: Null_Object_jet Array Cylinder_2_16
+    100020: Null_Object_jet Array Cylinder_2_17
+    100022: Null_Object_jet Array Cylinder_2_18
+    100024: Null_Object_jet Array Cylinder_2_19
+    100026: Null_Object_jet Array Cylinder_2_2
+    100028: Null_Object_jet Array Cylinder_2_20
+    100030: Null_Object_jet Array Cylinder_2_21
+    100032: Null_Object_jet Array Cylinder_2_22
+    100034: Null_Object_jet Array Cylinder_2_23
+    100036: Null_Object_jet Array Cylinder_2_24
+    100038: Null_Object_jet Array Cylinder_2_25
+    100040: Null_Object_jet Array Cylinder_2_26
+    100042: Null_Object_jet Array Cylinder_2_3
+    100044: Null_Object_jet Array Cylinder_2_4
+    100046: Null_Object_jet Array Cylinder_2_5
+    100048: Null_Object_jet Array Cylinder_2_6
+    100050: Null_Object_jet Array Cylinder_2_7
+    100052: Null_Object_jet Array Cylinder_2_8
+    100054: Null_Object_jet Array Cylinder_2_9
+    100056: Null_Object_jet Extrude_NURBS_1
+    100058: Null_Object_jet Loft_NURBS
+    100060: Null_Object_jet Loft_NURBS1
+    100062: Null_Object_jet Sweep_NURBS
+    100064: Null_Object_jet Tube
+    100066: Null_Object_jet Tube10
+    100068: Null_Object_jet Tube11
+    100070: Null_Object_jet Tube12
+    100072: Null_Object_jet Tube13
+    100074: Null_Object_jet Tube14
+    100076: Null_Object_jet Tube15
+    100078: Null_Object_jet Tube16
+    100080: Null_Object_jet Tube17
+    100082: Null_Object_jet Tube18
+    100084: Null_Object_jet Tube19
+    100086: Null_Object_jet Tube2
+    100088: Null_Object_jet Tube20
+    100090: Null_Object_jet Tube21
+    100092: Null_Object_jet Tube22
+    100094: Null_Object_jet Tube23
+    100096: Null_Object_jet Tube24
+    100098: Null_Object_jet Tube25
+    100100: Null_Object_jet Tube26
+    100102: Null_Object_jet Tube27
+    100104: Null_Object_jet Tube28
+    100106: Null_Object_jet Tube29
+    100108: Null_Object_jet Tube3
+    100110: Null_Object_jet Tube30
+    100112: Null_Object_jet Tube31
+    100114: Null_Object_jet Tube4
+    100116: Null_Object_jet Tube5
+    100118: Null_Object_jet Tube6
+    100120: Null_Object_jet Tube7
+    100122: Null_Object_jet Tube8
+    100124: Null_Object_jet Tube9
+    100126: Null_Object_jet Tube_1
+    100128: Null_Object_jet Tube_10
+    100130: Null_Object_jet Tube_11
+    100132: Null_Object_jet Tube_12
+    100134: Null_Object_jet Tube_13
+    100136: Null_Object_jet Tube_14
+    100138: Null_Object_jet Tube_15
+    100140: Null_Object_jet Tube_16
+    100142: Null_Object_jet Tube_17
+    100144: Null_Object_jet Tube_18
+    100146: Null_Object_jet Tube_2
+    100148: Null_Object_jet Tube_3
+    100150: Null_Object_jet Tube_4
+    100152: Null_Object_jet Tube_5
+    100154: Null_Object_jet Tube_6
+    100156: Null_Object_jet Tube_7
+    100158: Null_Object_jet Tube_8
+    100160: Null_Object_jet Tube_9
+    100162: Null_Object_LAZER Cube_2
+    100164: Null_Object_LAZER Cylinder_5
+    100166: Null_Object_LAZER LAZER1 LAZER_1 Tube32
+    100168: Null_Object_LAZER LAZER1 Tube1
+    100170: Null_Object_SHIP Plane_21 Plane_2
+    100172: //RootNode
+    400000: Null_Object_jet Array Cylinder
+    400002: Null_Object_jet Array Cylinder_2
+    400004: Null_Object_jet Array Cylinder_2_1
+    400006: Null_Object_jet Array Cylinder_2_10
+    400008: Null_Object_jet Array Cylinder_2_11
+    400010: Null_Object_jet Array Cylinder_2_12
+    400012: Null_Object_jet Array Cylinder_2_13
+    400014: Null_Object_jet Array Cylinder_2_14
+    400016: Null_Object_jet Array Cylinder_2_15
+    400018: Null_Object_jet Array Cylinder_2_16
+    400020: Null_Object_jet Array Cylinder_2_17
+    400022: Null_Object_jet Array Cylinder_2_18
+    400024: Null_Object_jet Array Cylinder_2_19
+    400026: Null_Object_jet Array Cylinder_2_2
+    400028: Null_Object_jet Array Cylinder_2_20
+    400030: Null_Object_jet Array Cylinder_2_21
+    400032: Null_Object_jet Array Cylinder_2_22
+    400034: Null_Object_jet Array Cylinder_2_23
+    400036: Null_Object_jet Array Cylinder_2_24
+    400038: Null_Object_jet Array Cylinder_2_25
+    400040: Null_Object_jet Array Cylinder_2_26
+    400042: Null_Object_jet Array Cylinder_2_3
+    400044: Null_Object_jet Array Cylinder_2_4
+    400046: Null_Object_jet Array Cylinder_2_5
+    400048: Null_Object_jet Array Cylinder_2_6
+    400050: Null_Object_jet Array Cylinder_2_7
+    400052: Null_Object_jet Array Cylinder_2_8
+    400054: Null_Object_jet Array Cylinder_2_9
+    400056: Null_Object_jet Extrude_NURBS_1
+    400058: Null_Object_jet Loft_NURBS
+    400060: Null_Object_jet Loft_NURBS1
+    400062: Null_Object_jet Sweep_NURBS
+    400064: Null_Object_jet Tube
+    400066: Null_Object_jet Tube10
+    400068: Null_Object_jet Tube11
+    400070: Null_Object_jet Tube12
+    400072: Null_Object_jet Tube13
+    400074: Null_Object_jet Tube14
+    400076: Null_Object_jet Tube15
+    400078: Null_Object_jet Tube16
+    400080: Null_Object_jet Tube17
+    400082: Null_Object_jet Tube18
+    400084: Null_Object_jet Tube19
+    400086: Null_Object_jet Tube2
+    400088: Null_Object_jet Tube20
+    400090: Null_Object_jet Tube21
+    400092: Null_Object_jet Tube22
+    400094: Null_Object_jet Tube23
+    400096: Null_Object_jet Tube24
+    400098: Null_Object_jet Tube25
+    400100: Null_Object_jet Tube26
+    400102: Null_Object_jet Tube27
+    400104: Null_Object_jet Tube28
+    400106: Null_Object_jet Tube29
+    400108: Null_Object_jet Tube3
+    400110: Null_Object_jet Tube30
+    400112: Null_Object_jet Tube31
+    400114: Null_Object_jet Tube4
+    400116: Null_Object_jet Tube5
+    400118: Null_Object_jet Tube6
+    400120: Null_Object_jet Tube7
+    400122: Null_Object_jet Tube8
+    400124: Null_Object_jet Tube9
+    400126: Null_Object_jet Tube_1
+    400128: Null_Object_jet Tube_10
+    400130: Null_Object_jet Tube_11
+    400132: Null_Object_jet Tube_12
+    400134: Null_Object_jet Tube_13
+    400136: Null_Object_jet Tube_14
+    400138: Null_Object_jet Tube_15
+    400140: Null_Object_jet Tube_16
+    400142: Null_Object_jet Tube_17
+    400144: Null_Object_jet Tube_18
+    400146: Null_Object_jet Tube_2
+    400148: Null_Object_jet Tube_3
+    400150: Null_Object_jet Tube_4
+    400152: Null_Object_jet Tube_5
+    400154: Null_Object_jet Tube_6
+    400156: Null_Object_jet Tube_7
+    400158: Null_Object_jet Tube_8
+    400160: Null_Object_jet Tube_9
+    400162: Null_Object_LAZER Cube_2
+    400164: Null_Object_LAZER Cylinder_5
+    400166: Null_Object_LAZER LAZER1 LAZER_1 Tube32
+    400168: Null_Object_LAZER LAZER1 Tube1
+    400170: Null_Object_SHIP Plane_21 Plane_2
+    400172: //RootNode
+    2300000: Null_Object_jet Array Cylinder
+    2300002: Null_Object_jet Array Cylinder_2
+    2300004: Null_Object_jet Array Cylinder_2_1
+    2300006: Null_Object_jet Array Cylinder_2_10
+    2300008: Null_Object_jet Array Cylinder_2_11
+    2300010: Null_Object_jet Array Cylinder_2_12
+    2300012: Null_Object_jet Array Cylinder_2_13
+    2300014: Null_Object_jet Array Cylinder_2_14
+    2300016: Null_Object_jet Array Cylinder_2_15
+    2300018: Null_Object_jet Array Cylinder_2_16
+    2300020: Null_Object_jet Array Cylinder_2_17
+    2300022: Null_Object_jet Array Cylinder_2_18
+    2300024: Null_Object_jet Array Cylinder_2_19
+    2300026: Null_Object_jet Array Cylinder_2_2
+    2300028: Null_Object_jet Array Cylinder_2_20
+    2300030: Null_Object_jet Array Cylinder_2_21
+    2300032: Null_Object_jet Array Cylinder_2_22
+    2300034: Null_Object_jet Array Cylinder_2_23
+    2300036: Null_Object_jet Array Cylinder_2_24
+    2300038: Null_Object_jet Array Cylinder_2_25
+    2300040: Null_Object_jet Array Cylinder_2_26
+    2300042: Null_Object_jet Array Cylinder_2_3
+    2300044: Null_Object_jet Array Cylinder_2_4
+    2300046: Null_Object_jet Array Cylinder_2_5
+    2300048: Null_Object_jet Array Cylinder_2_6
+    2300050: Null_Object_jet Array Cylinder_2_7
+    2300052: Null_Object_jet Array Cylinder_2_8
+    2300054: Null_Object_jet Array Cylinder_2_9
+    2300056: Null_Object_jet Extrude_NURBS_1
+    2300058: Null_Object_jet Loft_NURBS
+    2300060: Null_Object_jet Loft_NURBS1
+    2300062: Null_Object_jet Sweep_NURBS
+    2300064: Null_Object_jet Tube
+    2300066: Null_Object_jet Tube10
+    2300068: Null_Object_jet Tube11
+    2300070: Null_Object_jet Tube12
+    2300072: Null_Object_jet Tube13
+    2300074: Null_Object_jet Tube14
+    2300076: Null_Object_jet Tube15
+    2300078: Null_Object_jet Tube16
+    2300080: Null_Object_jet Tube17
+    2300082: Null_Object_jet Tube18
+    2300084: Null_Object_jet Tube19
+    2300086: Null_Object_jet Tube2
+    2300088: Null_Object_jet Tube20
+    2300090: Null_Object_jet Tube21
+    2300092: Null_Object_jet Tube22
+    2300094: Null_Object_jet Tube23
+    2300096: Null_Object_jet Tube24
+    2300098: Null_Object_jet Tube25
+    2300100: Null_Object_jet Tube26
+    2300102: Null_Object_jet Tube27
+    2300104: Null_Object_jet Tube28
+    2300106: Null_Object_jet Tube29
+    2300108: Null_Object_jet Tube3
+    2300110: Null_Object_jet Tube30
+    2300112: Null_Object_jet Tube31
+    2300114: Null_Object_jet Tube4
+    2300116: Null_Object_jet Tube5
+    2300118: Null_Object_jet Tube6
+    2300120: Null_Object_jet Tube7
+    2300122: Null_Object_jet Tube8
+    2300124: Null_Object_jet Tube9
+    2300126: Null_Object_jet Tube_1
+    2300128: Null_Object_jet Tube_10
+    2300130: Null_Object_jet Tube_11
+    2300132: Null_Object_jet Tube_12
+    2300134: Null_Object_jet Tube_13
+    2300136: Null_Object_jet Tube_14
+    2300138: Null_Object_jet Tube_15
+    2300140: Null_Object_jet Tube_16
+    2300142: Null_Object_jet Tube_17
+    2300144: Null_Object_jet Tube_18
+    2300146: Null_Object_jet Tube_2
+    2300148: Null_Object_jet Tube_3
+    2300150: Null_Object_jet Tube_4
+    2300152: Null_Object_jet Tube_5
+    2300154: Null_Object_jet Tube_6
+    2300156: Null_Object_jet Tube_7
+    2300158: Null_Object_jet Tube_8
+    2300160: Null_Object_jet Tube_9
+    2300162: Null_Object_LAZER Cube_2
+    2300164: Null_Object_LAZER Cylinder_5
+    2300166: Null_Object_LAZER LAZER1 LAZER_1 Tube32
+    2300168: Null_Object_LAZER LAZER1 Tube1
+    2300170: Null_Object_SHIP Plane_21 Plane_2
+    3300000: Null_Object_jet Array Cylinder
+    3300002: Null_Object_jet Array Cylinder_2
+    3300004: Null_Object_jet Array Cylinder_2_1
+    3300006: Null_Object_jet Array Cylinder_2_10
+    3300008: Null_Object_jet Array Cylinder_2_11
+    3300010: Null_Object_jet Array Cylinder_2_12
+    3300012: Null_Object_jet Array Cylinder_2_13
+    3300014: Null_Object_jet Array Cylinder_2_14
+    3300016: Null_Object_jet Array Cylinder_2_15
+    3300018: Null_Object_jet Array Cylinder_2_16
+    3300020: Null_Object_jet Array Cylinder_2_17
+    3300022: Null_Object_jet Array Cylinder_2_18
+    3300024: Null_Object_jet Array Cylinder_2_19
+    3300026: Null_Object_jet Array Cylinder_2_2
+    3300028: Null_Object_jet Array Cylinder_2_20
+    3300030: Null_Object_jet Array Cylinder_2_21
+    3300032: Null_Object_jet Array Cylinder_2_22
+    3300034: Null_Object_jet Array Cylinder_2_23
+    3300036: Null_Object_jet Array Cylinder_2_24
+    3300038: Null_Object_jet Array Cylinder_2_25
+    3300040: Null_Object_jet Array Cylinder_2_26
+    3300042: Null_Object_jet Array Cylinder_2_3
+    3300044: Null_Object_jet Array Cylinder_2_4
+    3300046: Null_Object_jet Array Cylinder_2_5
+    3300048: Null_Object_jet Array Cylinder_2_6
+    3300050: Null_Object_jet Array Cylinder_2_7
+    3300052: Null_Object_jet Array Cylinder_2_8
+    3300054: Null_Object_jet Array Cylinder_2_9
+    3300056: Null_Object_jet Extrude_NURBS_1
+    3300058: Null_Object_jet Loft_NURBS
+    3300060: Null_Object_jet Loft_NURBS1
+    3300062: Null_Object_jet Sweep_NURBS
+    3300064: Null_Object_jet Tube
+    3300066: Null_Object_jet Tube10
+    3300068: Null_Object_jet Tube11
+    3300070: Null_Object_jet Tube12
+    3300072: Null_Object_jet Tube13
+    3300074: Null_Object_jet Tube14
+    3300076: Null_Object_jet Tube15
+    3300078: Null_Object_jet Tube16
+    3300080: Null_Object_jet Tube17
+    3300082: Null_Object_jet Tube18
+    3300084: Null_Object_jet Tube19
+    3300086: Null_Object_jet Tube2
+    3300088: Null_Object_jet Tube20
+    3300090: Null_Object_jet Tube21
+    3300092: Null_Object_jet Tube22
+    3300094: Null_Object_jet Tube23
+    3300096: Null_Object_jet Tube24
+    3300098: Null_Object_jet Tube25
+    3300100: Null_Object_jet Tube26
+    3300102: Null_Object_jet Tube27
+    3300104: Null_Object_jet Tube28
+    3300106: Null_Object_jet Tube29
+    3300108: Null_Object_jet Tube3
+    3300110: Null_Object_jet Tube30
+    3300112: Null_Object_jet Tube31
+    3300114: Null_Object_jet Tube4
+    3300116: Null_Object_jet Tube5
+    3300118: Null_Object_jet Tube6
+    3300120: Null_Object_jet Tube7
+    3300122: Null_Object_jet Tube8
+    3300124: Null_Object_jet Tube9
+    3300126: Null_Object_jet Tube_1
+    3300128: Null_Object_jet Tube_10
+    3300130: Null_Object_jet Tube_11
+    3300132: Null_Object_jet Tube_12
+    3300134: Null_Object_jet Tube_13
+    3300136: Null_Object_jet Tube_14
+    3300138: Null_Object_jet Tube_15
+    3300140: Null_Object_jet Tube_16
+    3300142: Null_Object_jet Tube_17
+    3300144: Null_Object_jet Tube_18
+    3300146: Null_Object_jet Tube_2
+    3300148: Null_Object_jet Tube_3
+    3300150: Null_Object_jet Tube_4
+    3300152: Null_Object_jet Tube_5
+    3300154: Null_Object_jet Tube_6
+    3300156: Null_Object_jet Tube_7
+    3300158: Null_Object_jet Tube_8
+    3300160: Null_Object_jet Tube_9
+    3300162: Null_Object_LAZER Cube_2
+    3300164: Null_Object_LAZER Cylinder_5
+    3300166: Null_Object_LAZER LAZER1 LAZER_1 Tube32
+    3300168: Null_Object_LAZER LAZER1 Tube1
+    3300170: Null_Object_SHIP Plane_21 Plane_2
+    4300000: Null_Object_jet Array Cylinder
+    4300002: Null_Object_jet Array Cylinder_2
+    4300004: Null_Object_jet Array Cylinder_2_1
+    4300006: Null_Object_jet Array Cylinder_2_10
+    4300008: Null_Object_jet Array Cylinder_2_11
+    4300010: Null_Object_jet Array Cylinder_2_12
+    4300012: Null_Object_jet Array Cylinder_2_13
+    4300014: Null_Object_jet Array Cylinder_2_14
+    4300016: Null_Object_jet Array Cylinder_2_15
+    4300018: Null_Object_jet Array Cylinder_2_16
+    4300020: Null_Object_jet Array Cylinder_2_17
+    4300022: Null_Object_jet Array Cylinder_2_18
+    4300024: Null_Object_jet Array Cylinder_2_19
+    4300026: Null_Object_jet Array Cylinder_2_2
+    4300028: Null_Object_jet Array Cylinder_2_20
+    4300030: Null_Object_jet Array Cylinder_2_21
+    4300032: Null_Object_jet Array Cylinder_2_22
+    4300034: Null_Object_jet Array Cylinder_2_23
+    4300036: Null_Object_jet Array Cylinder_2_24
+    4300038: Null_Object_jet Array Cylinder_2_25
+    4300040: Null_Object_jet Array Cylinder_2_26
+    4300042: Null_Object_jet Array Cylinder_2_3
+    4300044: Null_Object_jet Array Cylinder_2_4
+    4300046: Null_Object_jet Array Cylinder_2_5
+    4300048: Null_Object_jet Array Cylinder_2_6
+    4300050: Null_Object_jet Array Cylinder_2_7
+    4300052: Null_Object_jet Array Cylinder_2_8
+    4300054: Null_Object_jet Array Cylinder_2_9
+    4300056: Null_Object_jet Extrude_NURBS_1
+    4300058: Null_Object_jet Loft_NURBS
+    4300060: Null_Object_jet Loft_NURBS1
+    4300062: Null_Object_jet Sweep_NURBS
+    4300064: Null_Object_jet Tube
+    4300066: Null_Object_jet Tube10
+    4300068: Null_Object_jet Tube11
+    4300070: Null_Object_jet Tube12
+    4300072: Null_Object_jet Tube13
+    4300074: Null_Object_jet Tube14
+    4300076: Null_Object_jet Tube15
+    4300078: Null_Object_jet Tube16
+    4300080: Null_Object_jet Tube17
+    4300082: Null_Object_jet Tube18
+    4300084: Null_Object_jet Tube19
+    4300086: Null_Object_jet Tube2
+    4300088: Null_Object_jet Tube20
+    4300090: Null_Object_jet Tube21
+    4300092: Null_Object_jet Tube22
+    4300094: Null_Object_jet Tube23
+    4300096: Null_Object_jet Tube24
+    4300098: Null_Object_jet Tube25
+    4300100: Null_Object_jet Tube26
+    4300102: Null_Object_jet Tube27
+    4300104: Null_Object_jet Tube28
+    4300106: Null_Object_jet Tube29
+    4300108: Null_Object_jet Tube3
+    4300110: Null_Object_jet Tube30
+    4300112: Null_Object_jet Tube31
+    4300114: Null_Object_jet Tube4
+    4300116: Null_Object_jet Tube5
+    4300118: Null_Object_jet Tube6
+    4300120: Null_Object_jet Tube7
+    4300122: Null_Object_jet Tube8
+    4300124: Null_Object_jet Tube9
+    4300126: Null_Object_jet Tube_1
+    4300128: Null_Object_jet Tube_10
+    4300130: Null_Object_jet Tube_11
+    4300132: Null_Object_jet Tube_12
+    4300134: Null_Object_jet Tube_13
+    4300136: Null_Object_jet Tube_14
+    4300138: Null_Object_jet Tube_15
+    4300140: Null_Object_jet Tube_16
+    4300142: Null_Object_jet Tube_17
+    4300144: Null_Object_jet Tube_18
+    4300146: Null_Object_jet Tube_2
+    4300148: Null_Object_jet Tube_3
+    4300150: Null_Object_jet Tube_4
+    4300152: Null_Object_jet Tube_5
+    4300154: Null_Object_jet Tube_6
+    4300156: Null_Object_jet Tube_7
+    4300158: Null_Object_jet Tube_8
+    4300160: Null_Object_jet Tube_9
+    4300162: Null_Object_LAZER Cube_2
+    4300164: Null_Object_LAZER Cylinder_5
+    4300166: Null_Object_LAZER LAZER1 LAZER_1 Tube32
+    4300168: Null_Object_LAZER LAZER1 Tube1
+    4300170: Null_Object_SHIP Plane_21 Plane_2
+    9500000: //RootNode
+  materials:
+    importMaterials: 1
+    materialName: 0
+    materialSearch: 1
+  animations:
+    legacyGenerateAnimations: 4
+    bakeSimulation: 0
+    optimizeGameObjects: 0
+    animationCompression: 1
+    animationRotationError: .5
+    animationPositionError: .5
+    animationScaleError: .5
+    animationWrapMode: 0
+    extraExposedTransformPaths: []
+    clipAnimations: []
+    isReadable: 1
+  meshes:
+    lODScreenPercentages: []
+    globalScale: 1
+    meshCompression: 0
+    addColliders: 0
+    importBlendShapes: 1
+    swapUVChannels: 0
+    generateSecondaryUV: 0
+    useFileUnits: 1
+    optimizeMeshForGPU: 1
+    weldVertices: 1
+    secondaryUVAngleDistortion: 8
+    secondaryUVAreaDistortion: 15.000001
+    secondaryUVHardAngle: 88
+    secondaryUVPackMargin: 4
+  tangentSpace:
+    normalSmoothAngle: 60
+    splitTangentsAcrossUV: 1
+    normalImportMode: 0
+    tangentImportMode: 1
+  importAnimation: 1
+  copyAvatar: 0
+  humanDescription:
+    human: []
+    skeleton: []
+    armTwist: .5
+    foreArmTwist: .5
+    upperLegTwist: .5
+    legTwist: .5
+    armStretch: .0500000007
+    legStretch: .0500000007
+    feetSpacing: 0
+    rootMotionBoneName: 
+  lastHumanDescriptionAvatarSource: {instanceID: 0}
+  animationType: 2
+  additionalBone: 0
+  userData: 
